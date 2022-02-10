@@ -1,0 +1,167 @@
+/* reset browser styles */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+
+ol { 
+  margin-left: 4.23em; 
+  list-style: decimal;
+  display: inline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ol a {
+  text-decoration: none;
+  color: white;
+  border-bottom: white 1em;
+}
+ol a:hover {
+  color: rgb(212, 209, 29);
+}
+ul { 
+  margin-left: 1.4em; 
+  list-style:square; 
+}
+/* end reset browser styles */
+body {
+  background: rgb(255,215,0) url(images/bg_body.png) repeat-x;
+  color: rgb(63, 26, 100);
+  margin: auto;
+  max-width: 80em;
+}
+header {
+  background-color: black;
+  margin: 0 -5em 0 -5em;
+  border-bottom: white;
+}
+
+.navbar {
+  width: 33em;
+  float: right;
+  padding: 2em 8em 0 0;
+  margin-top: .5em;
+  font: bolder;
+}
+#logo {
+  width: 14em;
+  padding: 5px 4em 1em;
+  margin: 1.7em 1em 1em 1em;
+}
+#vectorheadshot {
+  width: 15em;
+  float: right;
+  margin: -1em 2em;
+}
+#navbarstyle {
+  float: right;
+  padding: 100px;
+  text-decoration: none;
+}
+.HomeNavButton {
+  width: 1em;
+}
+
+.intro {
+  color: rgb(39, 39, 39);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin: 3em 2em 0 0;
+}
+
+.projects {
+  margin-top: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+}
+article p {
+  margin-left: 80px;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  line-height: 150%;
+}
+#School {
+  float: left;
+  width: 85%;
+  margin-left: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-top: -1em;
+}
+.EducationInfo {
+  float: right;
+  margin-top: -24.7em;
+  margin-right: -80px;
+  width: 38.7em;
+  height: 12.1em;
+  border-color: black;
+  border-style: solid;
+  border-left-width: 9px;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-right-width: 0;
+  padding: 6em 1.6em 3.6em 3em;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  
+}
+#Education {
+  font-weight: bolder;
+  margin-bottom: 1em;
+}
+.SchoolName {
+  width: 22em;
+}
+.WorkExpirience {
+  width: 32em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: rgb(226, 226, 226);
+  background-color: rgb(121, 121, 121);
+  padding: 2em 0 0 4em;
+  margin: 2em -4em;
+  margin-right: 3em;
+  padding-bottom: 2em;
+}
+.WorkExFont {
+  font-size: 1em;
+  font-weight: bolder;font-family: 'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;'
+}
+.WorkEx {
+  
+}
+aside {
+  float: left;
+  width: 35%;
+  padding: 15px;
+  background-color: #999;
+}
+.LetsKeepInTouch {
+  color: rgb(255, 255, 255);
+  font-size: 2.2em;
+  margin-bottom: 1em;
+}
+article h2 {
+  border-bottom: 2px solid white;
+}
+h1 {
+  font-family: 'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;';
+  font-size: 3em;
+  color: hsl(60, 100%, 96%);
+  text-shadow: 4px -5px 7px rgb(255, 164, 17), 2px -2px 5px rgb(255, 233, 135);
+  margin-bottom: 16px;
+}
+h2 { 
+  font-size: 1em;
+}
+footer {
+  background-color: rgb(54, 54, 48);
+  margin: -3em -5em 0 -5em;
+  padding: 3em 5em 4em;
+  font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer ul ol {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+} 
